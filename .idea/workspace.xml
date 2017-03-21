@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62daf4e2-5534-4624-84be-3c20c841ca22" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/livehacks_animation.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/Livehacks_logo_desktop.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/livehacks-playbutton.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/livehacks-prize.svg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/apple-touch-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/img/masthead-banner.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/img/masthead-banner.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/favicon.ico" afterPath="$PROJECT_DIR$/dist/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/CNAME" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist.zip" afterPath="$PROJECT_DIR$/dist.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/main.css" afterPath="$PROJECT_DIR$/dist/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/terms-and-conditions.html" afterPath="$PROJECT_DIR$/dist/terms-and-conditions.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="216" column="162" lean-forward="false" selection-start-line="216" selection-start-column="162" selection-end-line="216" selection-end-column="162" />
+            <state relative-caret-position="735">
+              <caret line="65" column="14" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="65" selection-end-column="14" />
               <folding>
                 <element signature="e#10514#10519#0" expanded="true" />
                 <element signature="e#16519#16525#0" expanded="true" />
@@ -49,9 +42,21 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="4755">
               <caret line="317" column="21" lean-forward="false" selection-start-line="317" selection-start-column="21" selection-end-line="317" selection-end-column="21" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="terms-and-conditions.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dist/terms-and-conditions.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+              <folding>
+                <element signature="e#8905#8911#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,8 +86,9 @@
       <find>HEADING-ASIDE</find>
       <find>DISCi</find>
       <find>footer</find>
-      <find>footer-a</find>
       <find>prize</find>
+      <find>role of</find>
+      <find>footer-a</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -92,9 +98,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/dist/js/main.js" />
-        <option value="$PROJECT_DIR$/dist/terms-and-conditions.html" />
         <option value="$PROJECT_DIR$/dist/css/main.css" />
         <option value="$PROJECT_DIR$/dist/index.html" />
+        <option value="$PROJECT_DIR$/dist/CNAME" />
+        <option value="$PROJECT_DIR$/dist/terms-and-conditions.html" />
       </list>
     </option>
   </component>
@@ -115,8 +122,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="331" />
-    <option name="width" value="1349" />
+    <option name="x" value="431" />
+    <option name="width" value="1249" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
@@ -263,12 +270,12 @@
       <workItem from="1489570203305" duration="215000" />
       <workItem from="1489748284595" duration="7256000" />
       <workItem from="1489955766929" duration="4247000" />
-      <workItem from="1490003520542" duration="6624000" />
+      <workItem from="1490003520542" duration="7033000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20870000" />
+    <option name="totallyTimeSpent" value="21279000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -280,11 +287,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="331" y="0" width="1349" height="1050" extended-state="0" />
+    <frame x="431" y="0" width="1249" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3128243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3378703" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901296" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -387,24 +394,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/terms-and-conditions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="55" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#9281#9287#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="317" column="21" lean-forward="false" selection-start-line="317" selection-start-column="21" selection-end-line="317" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/apple-touch-icon.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -423,13 +412,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dist/CNAME">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="216" column="162" lean-forward="false" selection-start-line="216" selection-start-column="162" selection-end-line="216" selection-end-column="162" />
+        <state relative-caret-position="735">
+          <caret line="65" column="14" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="65" selection-end-column="14" />
           <folding>
             <element signature="e#10514#10519#0" expanded="true" />
             <element signature="e#16519#16525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4755">
+          <caret line="317" column="21" lean-forward="false" selection-start-line="317" selection-start-column="21" selection-end-line="317" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/terms-and-conditions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+          <folding>
+            <element signature="e#8905#8911#0" expanded="true" />
           </folding>
         </state>
       </provider>

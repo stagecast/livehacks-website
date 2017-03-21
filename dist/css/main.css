@@ -14,6 +14,11 @@ a {
     color: #4B5571;
 }
 
+a:hover {
+    color: #FF6272;
+    text-decoration: underline;
+}
+
 
 h1 {
     font-size: 80px;
@@ -110,6 +115,10 @@ p {
     text-decoration: none;
     color: #FF6272;
     font-size: 30px;
+}
+
+.navbar-list li a:hover {
+    border-bottom: 4px solid #FF6272 !important;
 }
 
 .navbar-list {
@@ -322,6 +331,10 @@ p {
 .footer-attributes {
     margin-top: 30px;
     margin-bottom: 40px;
+}
+
+#show-more-less {
+    text-decoration: underline;
 }
 
 

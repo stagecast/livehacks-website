@@ -14,6 +14,18 @@ $(document).ready(function(){
         }
     });
 
+    $('#show-more-less').click(function (e) {
+        e.preventDefault();
+        if ($(this).text() === 'Read more') {
+            $(this).text('Read less');
+            $('#secondpara').removeClass('hidden-xs').removeClass('hidden-sm');
+        } else {
+            $(this).text('Read more');
+            $('#secondpara').addClass('hidden-xs').addClass('hidden-sm');
+        }
+
+    })
+
     $('#myNav a').click(function() {
         $('#nav-icon1').children().removeClass('white');
         $('#myNav').removeClass('open');

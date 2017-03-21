@@ -63,7 +63,7 @@ p {
 .heading-aside {
     border: 10px solid #FF6272;
     line-height: 101px;
-    padding: 50px 50px 20px 20px;
+    padding: 20px 50px 20px 20px;
     margin-top: 30px;
 }
 
@@ -93,6 +93,10 @@ p {
     float: left;
     padding: 20px;
     text-transform: uppercase;
+}
+
+.navbar-list li:last-child {
+    padding-right:0;
 }
 
 .navbar-list li a {
@@ -161,7 +165,7 @@ p {
 
 .livehacks-box {
     color: white;
-    margin-bottom: 125px;
+    margin-bottom: 80px;
     position: relative;
 }
 
@@ -194,27 +198,27 @@ p {
 
 .btn {
     color: #fff;
-    border-radius: 45px;
-    border: 5px solid #fff;
+    border-radius: 90px;
+    border: 8px solid #fff;
     background: transparent;
-    font-weight: 600;
+    font-weight: bold;
     text-transform: uppercase;
     width: 100%;
     display: block;
     text-align: center;
     padding: 24px 0;
-    font-size: 34px;
+    font-size: 48px;
     margin-top: 70px;
     text-decoration: none;
 }
 
-.btn:hover {
+.btn:hover, .btn:active, .btn:focus {
     color: white;
 }
 
 .spots {
     position: absolute;
-    top: -20px;
+    top: 0;
     right: 40px;
     text-transform: uppercase;
     color: white;
@@ -230,7 +234,7 @@ p {
 }
 
 .win-marshalls {
-    border: 5px solid #FF6272;
+    border: 10px solid #FF6272;
     padding: 50px;
     margin-top: 500px;
 }
@@ -311,7 +315,7 @@ p {
 }
 
 .footer-attributes {
-    margin-top: 5px;
+    margin-top: 30px;
     margin-bottom: 40px;
 }
 
@@ -351,6 +355,7 @@ p {
     .btn {
         font-size: 34px;
         font-weight: 400;
+        border: 5px solid white;
     }
 
     .win-marshalls {
@@ -442,6 +447,12 @@ p {
 
 .white {
     background: white !important;
+}
+
+.brand-heading {
+    margin-top: 50px;
+    line-height: 44px;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 1024px) {

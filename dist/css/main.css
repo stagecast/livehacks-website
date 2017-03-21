@@ -85,8 +85,14 @@ p {
     margin: 30px 0;
 }
 
+.navbar-log-nav {
+    padding: 35px 40px 0 0;
+}
+
 .navbar-logo-mob {
     padding: 25px;
+    margin: 10px 0;
+    float:right;
 }
 
 .navbar-list li {
@@ -115,10 +121,10 @@ p {
 
 .overlay {
     height: 100%;
-    width: 0;
+    width: 100%;
     position: fixed;
     z-index: 1;
-    left: 0;
+    left: -100%;
     top: 0;
     background-color: #FF6272;
     background-color: #FF6272;
@@ -127,7 +133,7 @@ p {
 }
 
 .overlay.open {
-    width:100%;
+    left: 0%;
     display: block;
 }
 
@@ -136,12 +142,11 @@ p {
     top: 25%; /* 25% from the top */
     width: 100%; /* 100% width */
     text-align: center; /* Centered text/links */
-    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
 }
 
 /* The navigation links inside the overlay */
 .overlay a {
-    padding: 8px;
+    padding: 25px;
     text-decoration: none;
     font-size: 30px;
     font-weight: 700;
@@ -172,7 +177,7 @@ p {
 .livehacks-box h1 {
     color: white;
     border: none;
-    padding: 60px 100px 30px 100px;
+    padding: 60px 80px 30px 100px;
     margin-right: 200px;
 }
 
@@ -354,7 +359,7 @@ p {
 
     .btn {
         font-size: 34px;
-        font-weight: 400;
+        font-weight: 600;
         border: 5px solid white;
     }
 
@@ -373,14 +378,26 @@ p {
     .brands p {
         margin:0;
     }
+
+    .footer-links p {
+        margin: 15px 0;
+    }
+
+    .brand-heading {
+        margin-bottom: 40px;
+    }
+
+    .date-section {
+        margin-bottom: 20px;
+    }
 }
 
 #nav-icon1 {
     z-index: 2;
-    width: 60px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     position: relative;
-    margin: 75px 30px;
+    margin: 60px 30px;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -392,13 +409,16 @@ p {
     cursor: pointer;
 }
 
+#nav-icon1.open {
+    position: fixed;
+}
+
 #nav-icon1 span {
     display: block;
     position: absolute;
-    height: 9px;
+    height: 5px;
     width: 100%;
     background: #FF6272;
-    border-radius: 9px;
     opacity: 1;
     left: 0;
     -webkit-transform: rotate(0deg);
@@ -417,11 +437,11 @@ p {
 }
 
 #nav-icon1 span:nth-child(2) {
-    top: 18px;
+    top: 15px;
 }
 
 #nav-icon1 span:nth-child(3) {
-    top: 36px;
+    top: 30px;
 }
 
 #nav-icon1.open span:nth-child(1) {
@@ -465,6 +485,7 @@ p {
     .masthead-banner {
         margin-left: -15px;
         margin-right: -15px;
+        margin-top: -25px;
     }
 
     .livehacks-box h1 {
@@ -491,5 +512,27 @@ p {
 
     .brands-container {
         margin-top: 55px;
+    }
+
+    .date-section {
+        height: 700px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .kth-logo {
+        height: auto;
+    }
+    .telia-logo {
+        height: auto;
+    }
+    .zound-logo {
+        height: auto;
+    }
+    .stagecast-logo {
+        height: auto;
+    }
+    .sae-logo {
+        height: auto;
     }
 }

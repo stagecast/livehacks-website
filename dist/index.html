@@ -3,12 +3,15 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>Livehacks</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" >
+
+        <link href="js/vendor/lity-2.2.2/dist/lity.min.css" rel="stylesheet">
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
@@ -19,71 +22,284 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
-        <h1>What is Livehacks?</h1>
-        <p>
-          In a more and more digitalized world, everything we do is somehow connected to computers, algorithms and source code.
-            As little as twenty years ago, musicians spent most of their time with guitars, pianos and drum sets and designers
-            illustrated with paper, pens and ink. Software and hardware developers were regarded as a specialized niche group,
-            working in front of flimmering computer screens. However, times have changed: Whether as a creative or an engineer,
-            chances are the computer is an essential part of the creation process. What sets us apart is no longer a matter of
-            mentality but a matter of only a few mouse clicks. Yet, although we now all share the same pixel playground, communication
-            between disciplines is still lacking - we still hang out and create within the same peer groups.
-        </p>
-        <p>
-          Live Hacks is a regularly arranged Hackathon event for Developers, Hackers, Designers and Artists who come together in Stockholm,
-            Sweden to revolutionize the way we experience live entertainment events. Organised by a close group of technology enthusiasts, product
-            designers, music lovers, engineers and entrepreneurs, we passionately believe that big dreams combined with smart technology can change
-            reality to the better. We value having fun through artistic expression and gather people around the same table to jointly co-create.
-            We love music, well thought out design and the clash of the digital and physical reality. And we are ready to bring the magic of the
-            digital century to live entertainment events.
-        </p>
-        <h1>be part</h1>
-        <h1>How does it work?</h1>
-        <p>The next Live Hacks event will be held on April 22nd, 2017 at Reaktorhallen underneath the Royal institute of technology.
-            The first nuclear reactor of Sweden was developed inside Reaktorhallen. Although the reactor has been disassembled, the
-            hall still exists today and makes a stunning Live Hacks location (Fun Fact Alan Walker shot their latest music video here
-            https://www.youtube.com/watch?v=bDmzGLrdjxQ). The event will start at 9 am in the morning and run past midnight. Don’t miss
-            out on the party and live DJ after the hackathon! Participants will be divided into teams of five members. Each team will
-            consist of at least three developers and one graphic designer. Teams can choose to work on own Stagecast Moment ideas or
-            on provided challenges. During the entire day teams will collect stars for their progress  - the team with the most stars
-            at the end of the night will win original Marshall Mid Headphones and a chance for the grand individual Marshall prize! We
-            will provide food, drinks and beer throughout the day. So, what are you waiting for? Apply now!
-        </p>
-        <h1>win great marshall products</h1>
+        <div class="section-white hidden-sm hidden-xs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="img/Livehacks_logo_desktop@2x.png" class="navbar-logo" />
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="text-right">
+                            <ul class="navbar-list">
+                                <li><a href="#what-is-livehacks">About</a></li>
+                                <li><a href="#how-does-it-work">next event</a></li>
+                                <li><a href="#apply-now">Apply Now</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <h1>Role of the Developer</h1>
-        <p>Developer are the stars of the night! Ideally, you are a web or mobile developer with experience
-            in one or multiple of the following languages: Java, JavaScript, Angular, Angular 2,
-            HTMS&CSS, React Native, Erlang, Swift, Objective-C, C or C++. We will provide you with all
-            necessary APIs and frameworks.
-            <a href="#">Apply Now</a>
-        </p>
+        <div class="section-white visible-xs visible-sm">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div id="nav-icon1">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="col-xs-6">
+                        <img src="img/Livehacks_logo_desktop@2x.png" class="navbar-logo navbar-logo-mob" />
+                    </div>
+                </div>
+            </div>
+            <div class="overlay" id="myNav">
+                <div class="overlay-content">
+                    <a href="#what-is-livehacks">About</a>
+                    <a href="#how-does-it-work">next event</a>
+                    <a href="#apply-now">Apply Now</a>
+                </div>
+            </div>
+        </div>
 
-        <h1>Role of the designer</h1>
-        <p>The ones with the mojo. You are a digital pioneer, creating astonishing visual experiences for audiences.
-            Your sense for aesthetics will not only be needed to make
-            stuff look cool, but also to help focus on the user’s experience. Ideally, you
-            have been working with UI/UX design before.
-            <a href="#">Apply Now</a>
-        </p>
+        <div class="section-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="masthead-banner">
+                            <img src="img/masthead-banner.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-grey what-is-livehacks" id="what-is-livehacks">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5 col-xs-12">
+                        <h1 class="uppercase">What is Livehacks?</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-xs-12">
+                        <p>
+                            In a more and more digitalized world, everything we do is somehow connected to computers, algorithms and source code.
+                            As little as twenty years ago, musicians spent most of their time with guitars, pianos and drum sets and designers
+                            illustrated with paper, pens and ink. Software and hardware developers were regarded as a specialized niche group,
+                            working in front of flimmering computer screens. However, times have changed: Whether as a creative or an engineer,
+                            chances are the computer is an essential part of the creation process. What sets us apart is no longer a matter of
+                            mentality but a matter of only a few mouse clicks. Yet, although we now all share the same pixel playground, communication
+                            between disciplines is still lacking - we still hang out and create within the same peer groups.
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <p>
+                            Live Hacks is a regularly arranged Hackathon event for Developers, Hackers, Designers and Artists who come together in Stockholm,
+                            Sweden to revolutionize the way we experience live entertainment events. Organised by a close group of technology enthusiasts, product
+                            designers, music lovers, engineers and entrepreneurs, we passionately believe that big dreams combined with smart technology can change
+                            reality to the better. We value having fun through artistic expression and gather people around the same table to jointly co-create.
+                            We love music, well thought out design and the clash of the digital and physical reality. And we are ready to bring the magic of the
+                            digital century to live entertainment events.
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-md-offset-1 hidden-sm hidden-xs">
+                        <h1 class="uppercase heading-aside">be part</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <h1>Role of the Hacker</h1>
-        <p>
-            Hackers are jokers - passionate tinkerers who love to take stuff apart. You are either an experienced sound or electrical engineer and you love to
-            play around with event tech. We provide you with relevant hardware and you will have a special mentor during the night.
-            <a href="#">Apply Now</a>
-        </p>
 
-        <h3>Sponsored by Telia and Zoundindustries, Live Hacks is organised by Stagecast in cooperation with KTH, Royal Institute of Technology as well
-            as the SAE Institute.
-        </h3>
+
+        <div class="section-white" id="how-does-it-work">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-7 col-xs-12">
+                        <a class="date-section" data-lity href="https://player.vimeo.com/video/208967622">
+                            <h3 class="text-center">22nd April - Reaktorhallen</h3>
+                            <h3 class="time uppercase">9:00 am - open end</h3>
+                        </a>
+                        <div class="row">
+                            <div class="col-md-10 col-md-offset-2 col-sm-12 col-xs-12">
+                                <div class="win-marshalls">
+                                    <img src="img/Prize@2x.png" />
+                                    <h1 class="uppercase">win great marshall products</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-sm-offset-1 col-xs-12">
+                        <div class="how-it-works">
+                            <h1>How does it work?</h1>
+                            <p>The next Live Hacks event will be held on April 22nd, 2017 at Reaktorhallen underneath the Royal institute of technology.
+                                The first nuclear reactor of Sweden was developed inside Reaktorhallen. Although the reactor has been disassembled, the
+                                hall still exists today and makes a stunning Live Hacks location (Fun Fact Alan Walker shot their latest music video
+                                <a href="https://www.youtube.com/watch?v=bDmzGLrdjxQ">here</a>. The event will start at 9 am in the morning and run past midnight. Don’t miss
+                                out on the party and live DJ after the hackathon! Participants will be divided into teams of five members. Each team will
+                                consist of at least three developers and one graphic designer. Teams can choose to work on own Stagecast Moment ideas or
+                                on provided challenges. During the entire day teams will collect stars for their progress  - the team with the most stars
+                                at the end of the night will win original Marshall Mid Headphones and a chance for the grand individual Marshall prize! We
+                                will provide food, drinks and beer throughout the day. So, what are you waiting for? Apply now!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-white" id="apply-now">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9 col-xs-12">
+                        <div class="livehacks-box livehacks-box--pink livehacks-box--dev">
+                            <h2 class="spots">24 spots</h2>
+                            <h1>Role of the Developer</h1>
+                            <div class="livehacks-box--content">
+                                <p>
+                                    Developer are the stars of the night! Ideally, you are a web or mobile developer with experience
+                                    in one or multiple of the following languages: Java, JavaScript, Angular, Angular 2,
+                                    HTMS&CSS, React Native, Erlang, Swift, Objective-C, C or C++. We will provide you with all
+                                    necessary APIs and frameworks.
+                                </p>
+                                <a href="#" class="btn">Apply Now</a>
+                                <h4 class="deadline">Deadline: 17.04.2017</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9 col-md-offset-2 col-xs-12">
+                        <div class="livehacks-box livehacks-box--navy">
+                            <h1>Role of the designer</h1>
+                            <div class="livehacks-box--content">
+                                <p>The ones with the mojo. You are a digital pioneer, creating astonishing visual experiences for audiences.
+                                    Your sense for aesthetics will not only be needed to make
+                                    stuff look cool, but also to help focus on the user’s experience. Ideally, you
+                                    have been working with UI/UX design before.
+                                </p>
+                                <a href="#" class="btn">Apply Now</a>
+                                <h4 class="deadline">Deadline: 17.04.2017</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9 col-xs-12">
+                        <div class="livehacks-box--blue livehacks-box">
+                            <h2 class="spots">6 spots</h2>
+                            <h1>Role of the Hacker</h1>
+                            <div class="livehacks-box--content">
+                                <p>
+                                    Hackers are jokers - passionate tinkerers who love to take stuff apart. You are either an experienced sound or electrical engineer and you love to
+                                    play around with event tech. We provide you with relevant hardware and you will have a special mentor during the night.
+                                </p>
+                                <a href="#" class="btn">Apply Now</a>
+                                <h4 class="deadline">Deadline: 17.04.2017</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section-grey brands-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-xs-12">
+                        <h3 class="text-center" style="margin-top: 50px;">Sponsored by Telia and Zoundindustries, Live Hacks is organised by Stagecast in cooperation with KTH, Royal Institute of Technology as well
+                            as the SAE Institute.
+                        </h3>
+                    </div>
+                </div>
+                <div class="row brands">
+                    <div class="col-sm-2 col-sm-offset-1 col-xs-12">
+                        <p>
+                            <img src="img/KTH@2x.png" class="kth-logo" />
+                        </p>
+                    </div>
+                    <div class="col-sm-2 col-xs-12">
+                        <p>
+                            <img src="img/Stagecast@2x.png" class="stagecast-logo" />
+                        </p>
+                    </div>
+                    <div class="col-sm-2 col-xs-12">
+                        <p>
+                            <img src="img/Zoundindustries@2x.png" class="zound-logo" />
+                        </p>
+                    </div>
+                    <div class="col-sm-2 col-xs-12">
+                        <p>
+                            <img src="img/Telia@2x.png" class="telia-logo" />
+                        </p>
+                    </div>
+                    <div class="col-sm-2 col-xs-12">
+                        <p>
+                            <img src="img/SAE_Institute@2x.png" class="sae-logo" />
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <footer>
-            <p>&copy; Copyright 2017, Stagecast</p>
+            <div class="container">
+                <div class="row footer-links">
+                    <div class="col-md-2 col-xs-12">
+                        <p class="text-center">
+                            <a href="#what-is-livehacks">About</a>
+                        </p>
+                    </div>
+                    <div class="col-md-2 col-xs-12">
+                        <p class="text-center">
+                            <a href="#how-does-it-work">Next Event</a>
+                        </p>
+                    </div>
+                    <div class="col-md-2 col-xs-12">
+                        <p class="text-center">
+                            <a href="#how-does-it-work">How it works</a>
+                        </p>
+                    </div>
+                    <div class="col-md-2 col-xs-12">
+                        <p class="text-center">
+                            <a href="#apply-now">Disciplines</a>
+                        </p>
+                    </div>
+                    <div class="col-md-2 col-xs-12">
+                        <p class="text-center">
+                            <a href="#apply-now">Apply Now</a>
+                        </p>
+                    </div>
+                    <div class="col-md-2 col-xs-12">
+                        <p class="text-center">
+                            <a href="/terms-and-conditions">Legal</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-xs-12">
+                        <p class="text-center footer-attributes">&copy; Copyright 2017, Stagecast</p>
+                    </div>
+                </div>
+            </div>
         </footer>
         <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.1.1.min.js"><\/script>')</script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="js/vendor/lity-2.2.2/dist/lity.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 

@@ -2,126 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62daf4e2-5534-4624-84be-3c20c841ca22" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.jscsrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.travis/github_deploy_key.enc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulpfile.babel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/apple-touch-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/browserconfig.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/doc/TOC.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/doc/css.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/doc/extend.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/doc/faq.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/doc/html.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/doc/js.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/doc/misc.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/doc/usage.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/humans.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/plugins.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/vendor/modernizr-2.8.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/tile-wide.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/tile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/file_content.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/file_existence.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/.editorconfig" afterPath="$PROJECT_DIR$/.editorconfig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/.gitattributes" afterPath="$PROJECT_DIR$/.gitattributes" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/404.html" afterPath="$PROJECT_DIR$/404.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/CNAME" afterPath="$PROJECT_DIR$/CNAME" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/browserconfig.xml" afterPath="$PROJECT_DIR$/browserconfig.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/css/normalize.css" afterPath="$PROJECT_DIR$/css/normalize.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/doc/TOC.md" afterPath="$PROJECT_DIR$/doc/TOC.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/doc/css.md" afterPath="$PROJECT_DIR$/doc/css.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/doc/extend.md" afterPath="$PROJECT_DIR$/doc/extend.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/doc/faq.md" afterPath="$PROJECT_DIR$/doc/faq.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/doc/html.md" afterPath="$PROJECT_DIR$/doc/html.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/doc/js.md" afterPath="$PROJECT_DIR$/doc/js.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/doc/misc.md" afterPath="$PROJECT_DIR$/doc/misc.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/doc/usage.md" afterPath="$PROJECT_DIR$/doc/usage.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/favicon.ico" afterPath="$PROJECT_DIR$/favicon.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/humans.txt" afterPath="$PROJECT_DIR$/humans.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/img/.gitignore" afterPath="$PROJECT_DIR$/img/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/img/KTH@2x.png" afterPath="$PROJECT_DIR$/img/KTH@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/img/Livehacks_logo_desktop.png" afterPath="$PROJECT_DIR$/img/Livehacks_logo_desktop.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/img/Livehacks_logo_desktop.svg" afterPath="$PROJECT_DIR$/img/Livehacks_logo_desktop.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/img/Livehacks_logo_desktop@2x.png" afterPath="$PROJECT_DIR$/img/Livehacks_logo_desktop@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/img/Livehacks_logo_desktop@3x.png" afterPath="$PROJECT_DIR$/img/Livehacks_logo_desktop@3x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/img/Prize@2x.png" afterPath="$PROJECT_DIR$/img/Prize@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/img/SAE_Institute.png" afterPath="$PROJECT_DIR$/img/SAE_Institute.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/img/SAE_Institute@2x.png" afterPath="$PROJECT_DIR$/img/SAE_Institute@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/img/Stagecast@2x.png" afterPath="$PROJECT_DIR$/img/Stagecast@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/img/Telia@2x.png" afterPath="$PROJECT_DIR$/img/Telia@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/img/Video_Desktop@2x.png" afterPath="$PROJECT_DIR$/img/Video_Desktop@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/img/Video_Mobile@2x.png" afterPath="$PROJECT_DIR$/img/Video_Mobile@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/img/Zoundindustries@2x.png" afterPath="$PROJECT_DIR$/img/Zoundindustries@2x.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/img/date-second-section.png" afterPath="$PROJECT_DIR$/img/date-second-section.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/img/livehacks-logo-white.svg" afterPath="$PROJECT_DIR$/img/livehacks-logo-white.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/img/livehacks-playbutton.svg" afterPath="$PROJECT_DIR$/img/livehacks-playbutton.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/img/livehacks-prize.svg" afterPath="$PROJECT_DIR$/img/livehacks-prize.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/img/livehacks_animation.gif" afterPath="$PROJECT_DIR$/img/livehacks_animation.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/plugins.js" afterPath="$PROJECT_DIR$/js/plugins.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/jquery-3.1.1.min.js" afterPath="$PROJECT_DIR$/js/vendor/jquery-3.1.1.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/.gitignore" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/.npmignore" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/.npmignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/CHANGELOG.md" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/CHANGELOG.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/Gruntfile.js" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/Gruntfile.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/LICENSE" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/LICENSE" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/README.md" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/UPGRADE-2.0.md" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/UPGRADE-2.0.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/assets/prism.css" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/assets/prism.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/assets/prism.js" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/assets/prism.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/assets/style.css" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/assets/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/bower.json" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/bower.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/dist/lity.css" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/dist/lity.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/dist/lity.js" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/dist/lity.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/dist/lity.min.css" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/dist/lity.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/dist/lity.min.js" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/dist/lity.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/index.html" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/package.json" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/src/lity.js" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/src/lity.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/src/lity.less" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/src/lity.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/test/functional/img/sample.bmp" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/test/functional/img/sample.bmp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/test/functional/img/sample.gif" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/test/functional/img/sample.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/test/functional/img/sample.ico" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/test/functional/img/sample.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/test/functional/img/sample.jpeg" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/test/functional/img/sample.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/test/functional/img/sample.jpg" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/test/functional/img/sample.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/test/functional/img/sample.jpg.ext" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/test/functional/img/sample.jpg.ext" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/test/functional/img/sample.png" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/test/functional/img/sample.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/test/functional/img/sample.svg" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/test/functional/img/sample.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/test/functional/img/sample.tif" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/test/functional/img/sample.tif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/test/functional/img/sample.tiff" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/test/functional/img/sample.tiff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/test/functional/img/sample.webp" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/test/functional/img/sample.webp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/test/functional/index.html" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/test/functional/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/test/functional/stacked.html" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/test/functional/stacked.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/test/functional/uri.html" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/test/functional/uri.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/vendor/jquery.js" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/vendor/jquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/lity-2.2.2/vendor/zepto.js" afterPath="$PROJECT_DIR$/js/vendor/lity-2.2.2/vendor/zepto.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/js/vendor/modernizr-2.8.3.min.js" afterPath="$PROJECT_DIR$/js/vendor/modernizr-2.8.3.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/robots.txt" afterPath="$PROJECT_DIR$/robots.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/terms-and-conditions.html" afterPath="$PROJECT_DIR$/terms-and-conditions.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/tile-wide.png" afterPath="$PROJECT_DIR$/tile-wide.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/tile.png" afterPath="$PROJECT_DIR$/tile.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -142,23 +24,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="39" lean-forward="false" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="50" />
+            <state relative-caret-position="240">
+              <caret line="107" column="96" lean-forward="false" selection-start-line="107" selection-start-column="96" selection-end-line="107" selection-end-column="96" />
               <folding>
-                <element signature="e#10927#10932#0" expanded="true" />
-                <element signature="e#16968#16974#0" expanded="true" />
+                <element signature="e#9646#9651#0" expanded="true" />
+                <element signature="e#15687#15693#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="-1575">
               <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
               <folding />
             </state>
@@ -197,8 +79,8 @@
       <find>sm-7</find>
       <find>-nav</find>
       <find>overla</find>
-      <find>navbar-list</find>
       <find>navbar-log-</find>
+      <find>navbar-list</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -213,6 +95,7 @@
         <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/dist/css/main.css" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -223,9 +106,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="531" />
@@ -368,12 +248,12 @@
       <workItem from="1489748284595" duration="7256000" />
       <workItem from="1489955766929" duration="4247000" />
       <workItem from="1490003520542" duration="7824000" />
-      <workItem from="1490127279083" duration="4146000" />
+      <workItem from="1490127279083" duration="4322000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26216000" />
+    <option name="totallyTimeSpent" value="26392000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -424,8 +304,8 @@
         <state relative-caret-position="2925">
           <caret line="195" column="95" lean-forward="false" selection-start-line="195" selection-start-column="95" selection-end-line="195" selection-end-column="95" />
           <folding>
-            <element signature="e#10927#10932#0" expanded="true" />
-            <element signature="e#16968#16974#0" expanded="true" />
+            <element signature="e#9646#9651#0" expanded="true" />
+            <element signature="e#15687#15693#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -453,8 +333,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#10927#10932#0" expanded="true" />
-            <element signature="e#16968#16974#0" expanded="true" />
+            <element signature="e#9646#9651#0" expanded="true" />
+            <element signature="e#15687#15693#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -464,8 +344,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#10927#10932#0" expanded="true" />
-            <element signature="e#16968#16974#0" expanded="true" />
+            <element signature="e#9646#9651#0" expanded="true" />
+            <element signature="e#15687#15693#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -483,8 +363,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#10927#10932#0" expanded="true" />
-            <element signature="e#16968#16974#0" expanded="true" />
+            <element signature="e#9646#9651#0" expanded="true" />
+            <element signature="e#15687#15693#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -544,17 +424,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="39" lean-forward="false" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="50" />
-          <folding>
-            <element signature="e#10927#10932#0" expanded="true" />
-            <element signature="e#16968#16974#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CNAME">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -573,9 +442,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="-1575">
           <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="107" column="96" lean-forward="false" selection-start-line="107" selection-start-column="96" selection-end-line="107" selection-end-column="96" />
+          <folding>
+            <element signature="e#9646#9651#0" expanded="true" />
+            <element signature="e#15687#15693#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

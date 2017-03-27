@@ -225,33 +225,14 @@ p {
     font-size: 48px;
     margin-top: 70px;
     text-decoration: none;
+    transition-duration: 0.2s;
 }
 
-/* BUTTON 4 */
-.btn::before {
-    height: 100%;
-    left: 0;
-    top: 0;
-    width: 100%;
-}
-
-.btn::after {
-    background: #2ecc71;
-    height: 100%;
-    left: 0;
-    top: 0;
-    width: 100%;
-}
-
-.btn:hover:after {
-    height: 0;
-    left: 50%;
-    top: 50%;
-    width: 0;
-}
 
 .btn:hover, .btn:active, .btn:focus {
-    color: white;
+    color: #FF6272;
+    background: #fff;
+    transition-duration: 0.2s;
 }
 
 .spots {

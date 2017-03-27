@@ -147,10 +147,11 @@ p {
 }
 
 .overlay-content {
-    position: relative;
-    top: 25%; /* 25% from the top */
-    width: 100%; /* 100% width */
-    text-align: center; /* Centered text/links */
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
 }
 
 /* The navigation links inside the overlay */
@@ -548,4 +549,11 @@ p {
     .sae-logo {
         height: auto;
     }
+}
+
+@media only screen and (max-width: 640px) {
+    .date-section {
+        height: 500px !important;
+    }
+
 }

@@ -29,6 +29,7 @@ $(document).ready(function(){
     $('#myNav a').click(function() {
         $('#nav-icon1').children().removeClass('white');
         $('#myNav').removeClass('open');
+        $('#nav-icon1').removeClass('open');
     })
 
     $('body').scrollspy({target: ".navbar", offset: 50});

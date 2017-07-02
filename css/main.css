@@ -82,6 +82,10 @@ p {
     padding-bottom: 250px;
 }
 
+.what-is-livehacks.v2 {
+    padding-bottom: 500px;
+}
+
 .section-white {
     background: white;
 }
@@ -243,6 +247,10 @@ p {
     color: white;
 }
 
+.apply-now {
+    padding-top: 150px;
+}
+
 .how-it-works {
     margin-top: 300px;
 }
@@ -255,7 +263,56 @@ p {
 .win-marshalls {
     border: 10px solid #FF6272;
     padding: 50px;
-    margin-top: 500px;
+    margin-top: -500px;
+}
+
+.why-join-livehacks {
+    border: 10px solid #FF6272;
+    padding: 50px;
+    margin-top: -400px;
+}
+
+.why-join-livehacks h1,
+.where-and-when h1 {
+    border: none;
+    padding: 0;
+}
+
+.where-and-when {
+    border: 10px solid #FF6272;
+    padding: 50px;
+}
+
+.livehacks-v2-timing {
+    margin-top: 100px;
+}
+
+.why-join-livehacks-description {
+    margin-top: -400px;
+}
+
+.why-join-livehacks-description h4 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #FF6272;
+}
+
+.btn-primary {
+    background: #506E86;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 10px 50px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    text-decoration: none;
 }
 
 .win-marshalls h1 {

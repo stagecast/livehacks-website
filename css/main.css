@@ -114,6 +114,10 @@ p {
     padding-right:0;
 }
 
+.navbar-list.v2 a {
+    font-size: 22px;
+}
+
 .navbar-list li a {
     font-weight: 600;
     text-decoration: none;
@@ -260,10 +264,51 @@ p {
     margin-top: 50px;
 }
 
+.date-section.v2 {
+    margin-top: 100px;
+    width: 100%;
+    background: url(../img/date-section.png) center repeat-x;
+    background-size: cover;
+    display: block;
+    height: 600px;
+    position: relative;
+    text-decoration: none !important;
+}
+
+.recathelon {
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.brands.one {
+    margin-top: 100px;
+}
+
+.reactor {
+    border: 10px solid #FF6272;
+    padding: 50px;
+    margin-top: 200px;
+    margin-left: 80px;
+}
+
+.carousel-row {
+    margin-top: 100px;
+}
+
+.carousel-container.one {
+    margin-bottom: 200px;
+}
+
+.carousel-container.two {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
 .win-marshalls {
     border: 10px solid #FF6272;
     padding: 50px;
-    margin-top: -500px;
+    margin-top: 200px;
 }
 
 .why-join-livehacks {
@@ -272,10 +317,33 @@ p {
     margin-top: -400px;
 }
 
+.drop-a-message {
+    border: 10px solid #FF6272;
+    padding: 50px;
+    margin-top: -300px;
+}
+
+.drop-the-message-description {
+    margin-top: 20px;
+}
+
+.drop-the-message-description .btn-container {
+    margin-top: 110px;
+}
+
 .why-join-livehacks h1,
-.where-and-when h1 {
+.where-and-when h1,
+.drop-a-message h1,
+.reactor h1{
     border: none;
     padding: 0;
+}
+
+.why-join-livehacks img,
+.where-and-when img,
+.drop-a-message img {
+    margin-left: 100px;
+    float: right;
 }
 
 .where-and-when {
@@ -547,7 +615,35 @@ p {
 .brand-heading {
     margin-top: 50px;
     line-height: 44px;
-    font-weight: bold;
+    font-size: 26px;
+}
+
+.faq {
+    padding-bottom: 400px;
+}
+
+
+.question {
+    border: 10px solid #FF6272;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    max-width: 800px;
+    margin-top: 80px;
+    text-transform: uppercase;
+    color: #FF6272;
+    z-index: 200;
+    position: relative;
+}
+
+.answer {
+    background: #F4F3F3;
+    padding: 100px 50px 100px 50px;
+    margin-top: -85px;
+}
+
+.answer p {
+    margin-bottom: 40px;
 }
 
 @media screen and (max-width: 1024px) {

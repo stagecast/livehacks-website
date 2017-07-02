@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="apple-touch-icon" href="favicon.ico">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+
     <!-- Place favicon.ico in the root directory -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" >
 
@@ -180,8 +182,10 @@
         </div>
         <div class="row carousel-row">
             <div class="col-sm-6">
-                <div class="carousel-container one">
-                    <img src="/img/carousel/carousel-1.png" />
+                <div class="carousel-container-custom one" id="carousel1">
+                    <div><img src="/img/carousel/carousel-1.png" /></div>
+                    <div><img src="/img/carousel/1-2.jpg" /></div>
+                    <div><img src="/img/carousel/1-3.jpg" /></div>
                 </div>
                 <p>There were many different projects going on during the day by the
                     creative participants. The team that won the prize for best project,
@@ -203,10 +207,12 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row row-carousel-2">
             <div class="col-sm-8">
-                <div class="carousel-container two">
-                    <img src="/img/carousel/carousel-2.png" />
+                <div class="carousel-container-custom two" id="carousel2">
+                    <div><img src="/img/carousel/carousel-2.png" /></div>
+                    <div><img src="/img/carousel/2-2.jpg" /></div>
+                    <div><img src="/img/carousel/2-3.jpg" /></div>
                 </div>
             </div>
         </div>
@@ -217,7 +223,7 @@
                 </p>
             </div>
             <div class="col-sm-7">
-                <div class="carousel-container three">
+                <div class="carousel-container-custom three">
                     <img src="/img/carousel/carousel-3.png" />
                 </div>
             </div>
@@ -307,7 +313,6 @@
         <div class="row">
             <div class="col-md-9 col-xs-12">
                 <div class="livehacks-box livehacks-box--pink livehacks-box--dev">
-                    <h2 class="spots">24 spots</h2>
                     <h1 class="uppercase">Role of the Developer</h1>
                     <div class="livehacks-box--content">
                         <p>
@@ -330,7 +335,6 @@
         <div class="row">
             <div class="col-md-9 col-md-offset-2 col-xs-12">
                 <div class="livehacks-box livehacks-box--navy">
-                    <h2 class="spots">10 spots</h2>
                     <h1 class="uppercase">Role of the designer</h1>
                     <div class="livehacks-box--content">
                         <p>The ones with the mojo. You are a digital pioneer, creating astonishing visual experiences for audiences.
@@ -352,7 +356,6 @@
         <div class="row">
             <div class="col-md-9 col-xs-12">
                 <div class="livehacks-box--blue livehacks-box">
-                    <h2 class="spots">6 spots</h2>
                     <h1 class="uppercase">Role of the Maker</h1>
                     <div class="livehacks-box--content">
                         <p>
@@ -535,6 +538,7 @@
 <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.1.1.min.js"><\/script>')</script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 <script src="js/vendor/lity-2.2.2/dist/lity.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
@@ -550,6 +554,7 @@
     ga('send', 'pageview');
 
 </script>
+
 <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 </body>
 </html>

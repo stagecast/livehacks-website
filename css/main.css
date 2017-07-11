@@ -21,7 +21,7 @@ a:hover {
 
 
 h1 {
-    font-size: 80px;
+    font-size: 75px;
     font-weight: bold;
     color: #FF6272;
     border-bottom: 10px solid #FF6272;
@@ -83,7 +83,7 @@ p {
 }
 
 .what-is-livehacks.v2 {
-    padding-bottom: 500px;
+    padding-bottom: 100px;
 }
 
 .section-white {
@@ -188,7 +188,7 @@ p {
 
 .livehacks-box {
     color: white;
-    margin-bottom: 80px;
+    margin-bottom: 120px;
     position: relative;
 }
 
@@ -314,7 +314,7 @@ p {
 .why-join-livehacks {
     border: 10px solid #FF6272;
     padding: 50px;
-    margin-top: -400px;
+    margin-bottom: 50px;
 }
 
 .drop-a-message {
@@ -356,7 +356,6 @@ p {
 }
 
 .why-join-livehacks-description {
-    margin-top: -400px;
 }
 
 .why-join-livehacks-description h4 {
@@ -467,8 +466,13 @@ p {
     text-decoration: underline;
 }
 
+@media screen and (max-width: 960px) {
+  .reactor h1 {
+    word-wrap: break-word;
+  }
+}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
 
     h1 {
         font-size: 54px;

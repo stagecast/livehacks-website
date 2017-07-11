@@ -21,7 +21,7 @@ a:hover {
 
 
 h1 {
-    font-size: 80px;
+    font-size: 75px;
     font-weight: bold;
     color: #FF6272;
     border-bottom: 10px solid #FF6272;
@@ -82,6 +82,10 @@ p {
     padding-bottom: 250px;
 }
 
+.what-is-livehacks.v2 {
+    padding-bottom: 100px;
+}
+
 .section-white {
     background: white;
 }
@@ -108,6 +112,10 @@ p {
 
 .navbar-list li:last-child {
     padding-right:0;
+}
+
+.navbar-list.v2 a {
+    font-size: 22px;
 }
 
 .navbar-list li a {
@@ -180,7 +188,7 @@ p {
 
 .livehacks-box {
     color: white;
-    margin-bottom: 80px;
+    margin-bottom: 120px;
     position: relative;
 }
 
@@ -243,6 +251,10 @@ p {
     color: white;
 }
 
+.apply-now {
+    padding-top: 150px;
+}
+
 .how-it-works {
     margin-top: 300px;
 }
@@ -252,10 +264,122 @@ p {
     margin-top: 50px;
 }
 
+.date-section.v2 {
+    margin-top: 100px;
+    width: 100%;
+    background: url(../img/date-section.png) center repeat-x;
+    background-size: cover;
+    display: block;
+    height: 600px;
+    position: relative;
+    text-decoration: none !important;
+}
+
+.recathelon {
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.brands.one {
+    margin-top: 100px;
+}
+
+.reactor {
+    border: 10px solid #FF6272;
+    padding: 50px;
+    margin-top: 200px;
+    margin-left: 80px;
+}
+
+.carousel-row {
+    margin-top: 100px;
+}
+
+.carousel-container-custom.one {
+    margin-bottom: 200px;
+}
+
+.carousel-container.two {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
 .win-marshalls {
     border: 10px solid #FF6272;
     padding: 50px;
-    margin-top: 500px;
+    margin-top: 200px;
+}
+
+.why-join-livehacks {
+    border: 10px solid #FF6272;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+.drop-a-message {
+    border: 10px solid #FF6272;
+    padding: 50px;
+    margin-top: -300px;
+}
+
+.drop-the-message-description {
+    margin-top: 20px;
+}
+
+.drop-the-message-description .btn-container {
+    margin-top: 110px;
+}
+
+.why-join-livehacks h1,
+.where-and-when h1,
+.drop-a-message h1,
+.reactor h1{
+    border: none;
+    padding: 0;
+}
+
+.why-join-livehacks img,
+.where-and-when img,
+.drop-a-message img {
+    margin-left: 100px;
+    float: right;
+}
+
+.where-and-when {
+    border: 10px solid #FF6272;
+    padding: 50px;
+}
+
+.livehacks-v2-timing {
+    margin-top: 100px;
+}
+
+.why-join-livehacks-description {
+}
+
+.why-join-livehacks-description h4 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #FF6272;
+}
+
+.btn-primary {
+    background: #506E86;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 10px 50px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    text-decoration: none;
 }
 
 .win-marshalls h1 {
@@ -342,8 +466,13 @@ p {
     text-decoration: underline;
 }
 
+@media screen and (max-width: 960px) {
+  .reactor h1 {
+    word-wrap: break-word;
+  }
+}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
 
     h1 {
         font-size: 54px;
@@ -490,7 +619,35 @@ p {
 .brand-heading {
     margin-top: 50px;
     line-height: 44px;
-    font-weight: bold;
+    font-size: 26px;
+}
+
+.faq {
+    padding-bottom: 400px;
+}
+
+
+.question {
+    border: 10px solid #FF6272;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    max-width: 800px;
+    margin-top: 80px;
+    text-transform: uppercase;
+    color: #FF6272;
+    z-index: 200;
+    position: relative;
+}
+
+.answer {
+    background: #F4F3F3;
+    padding: 100px 50px 100px 50px;
+    margin-top: -85px;
+}
+
+.answer p {
+    margin-bottom: 40px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -560,4 +717,74 @@ p {
         height: 500px !important;
     }
 
+}
+
+#carousel1 .slick-dots {
+    list-style: none;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#carousel1 .slick-dots li {
+    margin: 20px 10px;
+    display: inline-block;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    border: 5px solid #FF6272;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    border-radius: 50%;
+    background: transparent;
+    outline: none;
+}
+
+.slick-dots .slick-active button {
+    font-size: 0;
+    border: 5px solid #FF6272;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    border-radius: 50%;
+    background: #FF6272;
+    outline: none;
+}
+
+.slick-dots li button::before {
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 20px;
+    height: 20px;
+    content: "•";
+    text-align: center;
+    opacity: 0.25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+}
+
+#carousel2 .slick-dots {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+    position: absolute;
+    top: 0;
+    right: -70px;
+}
+
+#carousel2 .slick-dots li {
+    margin: 5px 0;
+}
+
+
+.row-carousel-2 {
+    margin: 100px 0;
 }

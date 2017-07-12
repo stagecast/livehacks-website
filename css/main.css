@@ -298,6 +298,7 @@ p {
 
 .carousel-container-custom.one {
     margin-bottom: 200px;
+    padding-right: 20px;
 }
 
 .carousel-container.two {
@@ -316,20 +317,22 @@ p {
     border: 10px solid #FF6272;
     padding: 50px;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .drop-a-message {
+    margin: 20px;
     border: 10px solid #FF6272;
     padding: 50px;
-    margin-top: -300px;
+    margin-top: 50px;
 }
 
 .drop-the-message-description {
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .drop-the-message-description .btn-container {
-    margin-top: 110px;
+    margin-top: 50px;
 }
 
 .why-join-livehacks h1,
@@ -456,6 +459,10 @@ p {
 
 .footer-links {
     margin-top: 80px;
+}
+
+.footer-links a {
+  text-decoration: underline;
 }
 
 .footer-attributes {
@@ -624,7 +631,7 @@ p {
 }
 
 .faq {
-    padding-bottom: 400px;
+    padding-bottom: 200px;
 }
 
 
@@ -788,4 +795,26 @@ p {
 
 .row-carousel-2 {
     margin: 100px 0;
+}
+
+.hosted-by-stagecast {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.hosted-by-stagecast-top {
+  padding-top: 20px;
+}
+
+.hosted-by-stagecast-bottom {
+  margin-bottom: 40px;
+}
+
+.hosted-by-stagecast img {
+  display: inline-block;
+}
+
+
+.hosted-by-stagecast a {
+  text-decoration: underline;
 }

@@ -130,6 +130,7 @@ p {
 }
 
 .navbar-list {
+    padding-left: 0;
     display: inline-block;
     list-style: none outside none;
     margin-top: 65px;
